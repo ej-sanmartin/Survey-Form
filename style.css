@@ -1,0 +1,115 @@
+body {
+  width: 100%;
+  background: #00d2f7; /* Old browsers */
+  background: -moz-linear-gradient(left, #00d2f7 0%, #a8ddb5 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #00d2f7 0%,#a8ddb5 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #00d2f7 0%,#a8ddb5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d2f7', endColorstr='#a8ddb5',GradientType=1 ); /* IE6-9 */
+  font-family: Verdana, Serif;
+  color: #444;
+}
+
+form {
+  margin-bottom: 2em;
+}
+
+label {
+  margin: 0.25em;
+}
+
+textarea {
+  margin-top: 1em;
+  margin-bottom: 0.1em;
+}
+
+button {
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: #00d2f7;
+  color: white;
+}
+
+button:active {
+  background: #a8ddb5;
+  color: black;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#title {
+  font-weight: 400;
+  text-align: center;
+}
+
+#description {
+  margin-top: 0.01em;
+  text-align: center;
+}
+
+#survey-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  background: white;
+  padding: 1em;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.45);
+  box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.45);
+  border-radius: 10px;
+}
+
+#number {
+  width: 3em;
+}
+
+#comment {
+  height: 4em;
+  width: 20em;
+}
+
+.experience-layout {
+  width: 55%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.options-head {
+  text-align: left;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+
+.options {
+  text-align: right;
+}
+
+.checkbox-section {
+  margin: auto;
+  width: 55%;
+}
+
+.small-box {
+  height: 1.25em;
+}
+
+.comment-box {
+  width: 55%;
+  margin:auto;
+}
+
+.center {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
