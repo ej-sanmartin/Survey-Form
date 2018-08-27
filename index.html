@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Robert Downey Jr.</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <form id="survey-form">
+      <p id="description">I'd love to hear from you!</p>
+      <div class="center">
+        <label id="name-label" for="name">* Name: </label>
+          <input type="text" name="name" id="name" placeholder="Name" class="small-box" required>
+      </div>
+      <div class="center">
+        <label id="email-label" for="email">* Email: </label>
+        <input type="email" name="email" id="email" class="small-box" placeholder="Email" required>
+      </div>
+      <div class="center">
+        <label id="number-label" for="number">* Age: </label>
+          <input type="number" name="number" id="number" class="small-box" min="1" max="99" placeholder="Age" required>
+      </div>
+      <div class="center">
+        <label for="dropdown">Technical Expertise: </label>
+        <select id="dropdown">
+          <option value="fron-end">Front End</option>
+          <option value="back-end">Back End</option>
+          <option value="full-stack">Full Stack</option>
+          <option value="data-science">Data Science</option>
+          <option value="mobile">Mobile</option>
+          <option value="game">Game</option>
+          <option value="blockchain">Blockchain</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="center experience-layout">
+        <legend class="options-head">Level of experience:</legend>
+          <div class="options">
+            <label>Student</label>
+              <input type="radio" value="student" name="choice">
+          </div>
+          <div class="options">
+            <label>Entry</label>
+              <input type="radio" value="entry" name="choice">
+          </div>
+          <div class="options">
+            <label>Mid</label>
+              <input type="radio" value="mid" name="choice">
+          </div>
+          <div class="options">
+            <label>Senior</label>
+              <input type="radio" value="senior" name="choice">
+          </div>
+        </div>
+      </div>
+      <div class="center checkbox-section">
+        <legend class="options-head social-media-q">The most important part of a social media site?</legend>
+          <div class="options">
+            <label>Connecting with people</label>
+              <input type="checkbox" value="social-connection">
+          </div>
+          <div class="options">
+            <label>How many people are using it</label>
+              <input type="checkbox" value="users-number">
+          </div>
+          <div class="options">
+            <label>Could be used on my phone</label>
+              <input type="checkbox" value="mobile-app">
+          </div>
+          <div class="options">
+            <label>No lags</label>
+              <input type="checkbox" value="speed">
+          </div>
+          <div class="options">  
+            <label>It looks aesthetic</label>
+              <input type="checkbox" value="design">
+          </div>
+      </div>
+      <div class="center comment-box">
+        <label for="comment">Additional comments? </label>
+          <textarea id="comment" placeholder="Your comment here"></textarea>
+      </div>
+      <div class="button">
+        <button id="submit" type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
